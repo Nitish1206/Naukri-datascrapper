@@ -10,4 +10,4 @@ conda create -n recreated_env --file dpdm.yml
 
 ## Graphs
 
-![graph experience vs salary](graphs/exp_vs_salary.png)
+![graph-experience vs salary](graphs/exp_vs_salary.png)
