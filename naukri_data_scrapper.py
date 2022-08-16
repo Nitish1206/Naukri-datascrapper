@@ -11,7 +11,7 @@ import json
 import time
 import traceback
 import os
-import multiprocessing
+
 
 class Naukri_Scrapper:
 
@@ -23,7 +23,7 @@ class Naukri_Scrapper:
             search_location (str, optional): Filter for location of job. Defaults to "Pune".
             Disable_search_filter (Bool, optional): False will enable filter search. Defaults to "True".
         """
-        multiprocessing.Process.__init__(self)
+        
         # set chrome paramters and initialise url to search for scrapping
         self.set_chrome_parameter()
         self.url="https://www.naukri.com/"
